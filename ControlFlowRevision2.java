@@ -1,6 +1,6 @@
 package exercises;
 
-/* Date: 8.6.2024
+/* Date: 18.6.2024
  * author: Alex Joshua Chirwa
  * Revision of Control Flow in Java 
  * (if..else, switch, while loops, do-while loops, for-loops and for-each loops)
