@@ -22,7 +22,7 @@ package exercises;
 
 import java.util.Scanner;
 
-public class Revision5 {
+public class Fibonacci {
 	public static void main(String[] args) {
 		// Prompt user to enter a positive integer
 		Scanner in = new Scanner(System.in);
