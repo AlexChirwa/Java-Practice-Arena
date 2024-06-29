@@ -1,4 +1,7 @@
-
+/*
+Date: 6.29.2024
+Author: Chirwa Alex Joshua
+*/
 import java.util.Scanner;
 
 public class CountingUp {
@@ -11,10 +14,14 @@ public class CountingUp {
 		
 		for(int b = 0; b <= a;b++) {
 			System.out.println(b);
-			sleep(1000);
+			sleep(1000);// this ensures the counting of numbers one at a time in the console
 		}
-		in.close();
+		in.close(); // Close Scanner
 	}
+	/*
+        This method pauses the execution of the program for the specified number of milliseconds. 
+        The Thread.sleep method is used to introduce the delay.
+        */
 	private static void sleep(int milliseconds) {
 	    try {
 	        Thread.sleep(milliseconds);
